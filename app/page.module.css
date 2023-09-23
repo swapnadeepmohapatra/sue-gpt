@@ -32,6 +32,18 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 1);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.5);
+  border-radius: var(--border-radius);
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .code {
@@ -97,7 +109,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
